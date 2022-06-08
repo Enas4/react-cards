@@ -4,6 +4,7 @@
 }
 .Card-img-container {
   overflow: hidden;
+  cursor: pointer;
 }
 .Cards-card img {
   width: 400px;
