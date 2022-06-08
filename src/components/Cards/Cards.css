@@ -1,0 +1,27 @@
+.Cards-card {
+  height: auto;
+  background-color: rgb(228, 211, 184);
+  padding-bottom: 20px;
+}
+.Cards-card img {
+  width: 400px;
+  height: 400px;
+}
+.Cards-card-info {
+  padding: 10px;
+}
+.Cards-card-info button {
+  margin-top: 10px;
+  padding: 10px;
+}
+.Cards-card-title {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.Cards-card-link {
+  cursor: pointer;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+}
