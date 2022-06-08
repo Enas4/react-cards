@@ -1,11 +1,17 @@
 .Cards-card {
-  height: auto;
   background-color: rgb(228, 211, 184);
   padding-bottom: 20px;
+}
+.Card-img-container {
+  overflow: hidden;
 }
 .Cards-card img {
   width: 400px;
   height: 400px;
+  transition: all 0.4s;
+}
+.Cards-card img:hover {
+  transform: scale(1.2);
 }
 .Cards-card-info {
   padding: 10px;
